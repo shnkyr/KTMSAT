@@ -4,20 +4,17 @@
     box-sizing: border-box;
 }
 body{
-     height:20vh;
-   padding-right:-290pt;
-   padding:10px;
-   padding-bottom:-50pt;
-   width:100pt;
+    height:70vh;
+   width:fit-content;
     justify-content: center;
     flex-direction: column;
-    background:linear-gradient(rgb(47,150,163),rgb(48,62,143));
+     background:linear-gradient(rgb(47,150,163),rgb(48,62,143));
     font-family: sans-serif;
-    color:magenta;
+    color: magenta;
 }
 .location{
     height:30vh;
-    width:50%;
+    width:fit-content;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -26,36 +23,34 @@ body{
 table{
     
     align-items:right;
-    align:left;
-    
+    position:relative;
+    width:fit-content;
+     background:linear-gradient(rgb(47,150,163),rgb(48,62,143));
 
 
 }
 .temperature{
     flex-direction: column;
-    width:590px;
-    height:200px;
+    
 }
 .degree-section{
     display: flex;
     align-items: center;
-    padding-left:80pt;
+    padding-left:20pt;
     cursor: pointer;
 }
 .degree-section span {
     margin: 10px;
     font-size: 15px;
-    align-items:center;
 
 }
 }
 .degree-section h2{
     font-size: 30px;
-    padding-left:80pt;
-    align-items:center;
+    
 }
 
 .temperature-description
 {
-    padding-left:80pt;
+    padding-left:20pt;
 }
