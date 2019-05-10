@@ -5,7 +5,8 @@
 }
 body{
      
-   width:fit-content;
+   height:100%;
+    width:100%;
     justify-content: center;
     flex-direction: column;
      background:linear-gradient(rgb(47,150,16),rgb(48,62,143));
