@@ -6,9 +6,9 @@
 body{
     height:70vh;
    
-    justify-content: right;
+    justify-content: center;
     flex-direction: column;
-    align-items: center;
+    
     background:linear-gradient(rgb(47,150,163)rgb(48,62,143));
     font-family: sans-serif;
     color: magenta;
@@ -26,7 +26,7 @@ body{
 table{
     
     align-items:right;
-    position:fixed;
+    position:relative;
     
 
 
