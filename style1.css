@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-     position:fixed;
+     
    width:fit-content;
     justify-content: center;
     flex-direction: column;
