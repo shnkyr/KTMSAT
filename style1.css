@@ -14,14 +14,12 @@ body{
     color: magenta;
 }
 .location{
-    height:15vh;
-    width:-webkit-fill-available%;
-    padding-left:40pt;
+    height:30vh;
+    width:50%;
     display: flex;
-  
-    background
     justify-content: space-around;
     align-items: center;
+    padding-left:25px;
 }
 table{
     
