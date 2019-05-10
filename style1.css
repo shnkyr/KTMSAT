@@ -4,15 +4,16 @@
     box-sizing: border-box;
 }
 body{
-    height:70vh;
-   
+     height:20vh;
+   padding-right:-290pt;
+   padding:10px;
+   padding-bottom:-50pt;
+   width:100pt;
     justify-content: center;
     flex-direction: column;
-    
-    
-     background:linear-gradient(rgb(47,150,163),rgb(48,62,143));
+    background:linear-gradient(rgb(47,150,163),rgb(48,62,143));
     font-family: sans-serif;
-    color: magenta;
+    color:magenta;
 }
 .location{
     height:30vh;
@@ -25,7 +26,7 @@ body{
 table{
     
     align-items:right;
-    position:relative;
+    align:left;
     
 
 
