@@ -1,28 +1,44 @@
 
+
 <!DOCTYPE html>
 <html lang="en-US">
   <head>
-<meta name=”viewport” content=”width=device-width, initial-scale=1″>
+
+
+
+
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
   
 	
     <link rel="stylesheet" href="style.css" >
 	
-    <link rel="stylesheet" href="mobile.css" media="handled, only in screen and(max-device-width:650px)">
-	
-    <link rel="stylesheet" href="non-screen.css" media="handheld, only screen and (max-device-width:640px)">
+    
 
     <script src="./js/modernizr.js"></script>
+
+    <script src="./js/functiondisable.js"></script>
+
     <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+
     <script src="./js/headsmart.min.js"></script>
+
     <script>
       $(document).ready(function () {
         $('#main_content').headsmart()
       })
     </script>
 
-<!-- Coded by-Shankar Sapkota -->
+    <script>
+      $(document).keydown(function (e) {
+
+    NFS.PreventIllegalKeyPress(e);
+
+});
+</script>
+
+
+
 <title>Welcome to KATHMANDU SATELLITE | KTMSAT</title>
 <meta name="generator" content="Jekyll v3.8.5" />
 <meta property="og:title" content="Welcome to KATHMANDU SATELLITE" />
@@ -34,12 +50,32 @@
 <meta property="og:site_name" content="KTMSAT" />
 <script type="application/ld+json">
 {"@type":"WebSite","headline":"KATHMANDU SATELLITE","url":"https://shnkyr.github.io/KTMSAT/","name":"KTMSAT","description":"Kathmandu Satellite Homepage and Updates","@context":"http://schema.org"}</script>
-<!-- End Jekyll SEO tag -->
+
 
   </head>
 
-  <body oncontextmenu="return false" onselectstart="return false" ondragstart="return false">
-    
+  <body oncontextmenu="return false" onselectstart="return false" ondragstart="return false" >
+
+    <div class="table">
+
+
+
+    <table border="1" width="150pt" align="center">
+    <th align="center"><td> 
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
     <div class="shell">
  
   </a>
@@ -80,8 +116,8 @@
     <script src="down.js"></script>
 
    <div class="location">
-        <h2 class="location-timezone"> -----</h2>
-        <canvas class="icon" width="100" height="100"></canvas>
+        <h1 class="location-timezone"> -----</h1>
+        <canvas class="icon" width="128" height="128"></canvas>
     </div>
     <div class="temperature">
         <div class="degree-section">
@@ -90,7 +126,9 @@
     </div>
  
     <div class="temperature-description">
-        Please Enable Location Access<br>  
+        Please Enable Location Access<br><br>
+   
+   
 </div>
     
 
@@ -110,7 +148,7 @@
         <span class="octocat"></span>
       </footer>
     </div>
-
+</th></td></div></td></th></table></div>
     
   </body>
 </html>
