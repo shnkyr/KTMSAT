@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    height:70vh;
+    height:50vh;
    width:fit-content;
     justify-content: center;
     flex-direction: column;
@@ -13,12 +13,13 @@ body{
     color: magenta;
 }
 .location{
-    height:30vh;
+    height:20vh;
     width:fit-content;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding-left:25px;
+    padding-left:150pt;
+    font-size: 18px;
 }
 table{
     
@@ -36,21 +37,25 @@ table{
 .degree-section{
     display: flex;
     align-items: center;
-    padding-left:20pt;
+    padding-left:25pt;
     cursor: pointer;
+    font-size: 25px;
 }
 .degree-section span {
     margin: 10px;
-    font-size: 15px;
+      padding-left:25pt;
+    font-size: 25px;
 
 }
 }
 .degree-section h2{
     font-size: 30px;
+
     
 }
 
 .temperature-description
 {
-    padding-left:20pt;
+   font-size: 22px;
+      padding-left:30pt;
 }
